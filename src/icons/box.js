@@ -8,7 +8,7 @@ const Box = (props) => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      viewBox="0 0 24 24"
+      viewBox="0 0 16 16"
       fill="none"
       stroke={color}
       strokeWidth="2"
@@ -30,7 +30,7 @@ Box.propTypes = {
 
 Box.defaultProps = {
   color: 'currentColor',
-  size: '24',
+  size: '16',
 };
 
 export default Box;
